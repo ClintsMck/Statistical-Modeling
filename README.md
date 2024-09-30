@@ -1,5 +1,4 @@
 ## Statistical-Modeling
- Developing models for datasets
 
 # Market Share Analysis: Predicting Customer Switching Behavior
 This project involves analyzing energy market share data to identify trends and model customer behavior, specifically focusing on predicting customer switching patterns using various machine learning models.
