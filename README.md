@@ -1,9 +1,9 @@
 ## Statistical-Modeling
 
-# Market Share Analysis: Predicting Customer Switching Behavior
+## Market Share Analysis: Predicting Customer Switching Behavior
 This project involves analyzing energy market share data to identify trends and model customer behavior, specifically focusing on predicting customer switching patterns using various machine learning models.
 
-# Table of Contents
+## Table of Contents
 Data Preparation
 Trend and Correlation Analysis
 Predictive Modeling
@@ -24,12 +24,12 @@ To understand the data better, we first performed a descriptive analysis and vis
 
 We calculated the correlation between key variables like Affiliate Rate and Avg_Res_kWH_Usage, and visualized this using a correlation matrix heatmap.
 
-#Predictive Modeling
+## Predictive Modeling
 We created features like Switching_Behavior, which flags instances where there was a decrease in the number of affiliated customers compared to the previous month. This column is used as the target for modeling.
 
 We then built the following models to predict customer switching behavior:
 
-#Linear Regression
+## Linear Regression
 
 Predicted customer switching behavior based on the Affiliate Rate and Avg_Res_kWH_Usage.
 Results indicated a low R-squared score, suggesting the need for more complex models.
@@ -41,10 +41,10 @@ Random Forest Classifier
 Performed well, demonstrating higher accuracy than logistic regression.
 Further tuning was done using grid search and cross-validation.
 
-# Evaluation and Improvements
+## Evaluation and Improvements
 We used the Random Forest Classifier as a final model and improved its performance using SMOTE (Synthetic Minority Over-sampling Technique) to address class imbalance. We also used Polynomial Features to capture non-linear relationships in the data. Finally, we performed hyperparameter tuning using GridSearchCV, which identified the best parameters for our random forest model.
 
-# Prerequisites
+## Prerequisites
 Make sure you have the following packages installed:
 
 pandas
@@ -65,7 +65,7 @@ Run the notebook or Python script.
 
 Visualize the trends and run the machine learning models as described above.
 
-# Technologies Used
+## Technologies Used
 Python for data analysis and modeling
 pandas for data manipulation
 seaborn and matplotlib for data visualization
